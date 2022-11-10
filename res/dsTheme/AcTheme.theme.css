@@ -1,0 +1,64 @@
+/**
+* @name AcTheme
+* @version 1.0.0
+* @description Тема от acula_1#7451
+* @author acula_1#7451
+*/
+ @import url('https://fonts.googleapis.com/css2?family=Roboto');
+:root {
+--header-primary: #ffffff;
+font-family: 'Roboto';
+transition: opacity 300ms linear;
+}
+.group-spacing-16 .groupStart-3Mlgv1 {
+    margin-top: 0rem;
+}
+.groupStart-3Mlgv1 .username-h_Y3Us {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+    color: var(--header-primary);
+    display: inline;
+    vertical-align: baseline;
+    position: relative;
+    overflow: hidden;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    /* filter: opacity(0); */
+    opacity: 0;
+    transition: opacity 500ms linear;
+}
+.groupStart-3Mlgv1:hover .username-h_Y3Us {
+    /* filter: opacity(1); */
+    opacity: 1;
+}
+.cozy-VmLDNB .timestamp-p1Df1m {
+    position: absolute;
+    right: 0;
+}
+.executedCommand-14-SNW .applicationName-19i3lP, .executedCommand-14-SNW .commandName-1KhvGm, .executedCommand-14-SNW .username-h_Y3Us, .repliedMessage-3Z6XBG .roleDot-PzIfeF, .repliedMessage-3Z6XBG .username-h_Y3Us, .threadMessageAccessory-2W9mjC .username-h_Y3U {
+    opacity: 0.2;
+}
+.groupStart-3Mlgv1:hover .executedCommand-14-SNW .applicationName-19i3lP, .groupStart-3Mlgv1:hover .executedCommand-14-SNW .commandName-1KhvGm, .groupStart-3Mlgv1:hover .executedCommand-14-SNW .username-h_Y3Us, .groupStart-3Mlgv1:hover .repliedMessage-3Z6XBG .roleDot-PzIfeF, .groupStart-3Mlgv1:hover .repliedMessage-3Z6XBG .username-h_Y3Us, .groupStart-3Mlgv1:hover .threadMessageAccessory-2W9mjC .username-h_Y3U {
+    opacity: 0.7;
+}
+.groupStart-3Mlgv1.cozy-VmLDNB .messageContent-2t3eCI {
+    top: -10px;
+    transition: top 500ms cubic-bezier(0.55, 0.01, 0.89, 1.02);
+}
+.groupStart-3Mlgv1:hover.cozy-VmLDNB .messageContent-2t3eCI {
+    top: 0;
+}
+.layout-1qmrhw {
+    height: 50px;
+}
+.avatar-6qzftW {
+    width: 30px;
+    height: 30px;
+}
+.avatar-6qzftW svg{
+    top: 3px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+}
